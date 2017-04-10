@@ -1,7 +1,12 @@
-## node-coap
+node-coap
 =====
 
-This is datasnap's fork of node-coap. It has been extended to use DTLS.
+This is hypfers fork of datasnap's fork of node-coap. It has been extended to use DTLS.
+
+Also, hypfer removed all those awfully verbose messages. Nothing else. The code still looks terrible from my point of view but as long as it works...
+
+This library is used by <a href="http://github.com/Hypfer/node-tradfri">node-tradfri</a>
+____
 
 The server does not yet function. More work needs to be done to rationalize the
 innate differeces in socket handling between TLS and straight-up UDP.
